@@ -1,0 +1,77 @@
+CSS
+/* Reset Basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    line-height: 1.6;
+    font-size: 27px;
+}
+h1 {
+    font-size: 40px;
+}
+
+/* Estilos do cabeçalho do site */
+header {
+    background: #000000;
+    color: #3a21c7;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+
+list-style: none;
+
+}
+
+nav ul li {
+ 
+display: inline;
+margin: o 10px;   
+
+}
+
+nav ul li a {
+
+color: #ffffff;
+text-decoration: none;
+
+}
+img{
+    width: 500px;
+    right: 300px;
+}
+
+.secao2 {
+    background-color: #2c21ca;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    article {
+        flex: 1 1 100%;
+    }
+}
